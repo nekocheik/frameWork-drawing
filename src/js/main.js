@@ -5,7 +5,7 @@ class drawing {
 
   constructor(){
      this.elementOfDom = document.querySelectorAll('div');
-    // this.refrecheDom();
+    this.refrecheDom();
     setTimeout(()=>{
       this.linsentClick();
     }, 1000)
@@ -13,15 +13,25 @@ class drawing {
 
   refrecheDom(){
     setInterval( ()=>{
-      this.elementOfDom =  document.querySelectorAll('body');
-    } , 800)
-  }
+
+      let eventOfDom = [
+        
+      ] 
+      window.addEventListener('')
+
+
+
+  //     this.elementOfDom =  document.querySelectorAll('div');
+  //     this.elementOfDom.forEach( e => {
+  //       console.log(e)
+  //     });
+  //   } , 800)  
+  // }
 
   linsentClick(){
-    console.log(this.elementOfDom[0] )
+    // console.log(this.elementOfDom[0] )
     for (let i = 0; i < this.elementOfDom.length ; i++) {
-      const e = this.elementOfDom[i];
-      console.log(e)
+      const e = this.elementOfDom[i]
     }
   }
 
